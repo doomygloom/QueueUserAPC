@@ -7,7 +7,7 @@ Asynchronous Procedure Call (APC) queuing to execute shellcode within the contex
 ### Usage
 
 ```
-powershell -File script.ps1 -b64EncSc "<Base64EncodedXORedShellcode>" -scXorKey <Byte>
+powershell -File sc_loader.ps1 -b64EncSc "<Base64EncodedXORedShellcode>" -scXorKey <Byte>
 ```
 
 * **`-b64EncSc`**: The Base64 encoded XORed shellcode to be injected.
